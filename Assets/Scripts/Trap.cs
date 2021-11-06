@@ -9,18 +9,18 @@ public class Trap : MonoBehaviour
     GameObject player;
     List<GameObject> enemysAlive;
     public int maxEnemies = 5;
-    int counter;
+    public float x = 0;
+    public float z = 0;
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        counter = 0;
         enemysAlive = new List<GameObject>();
     }
 
     private void OnTriggerEnter(){
         if(enemysAlive.Count < maxEnemies){
-            Vector3 enemyPosition = new Vector3(player.transform.position.x + Random.Range(5, 15), 
-            player.transform.position.y, player.transform.position.z+ Random.Range(5, 15));
+            Vector3 enemyPosition = new Vector3(x + Random.Range(5, 15), 
+            player.transform.position.y, z);
             GameObject newEnemy = Instantiate(enemy, enemyPosition, Quaternion.identity);
             enemysAlive.Add(newEnemy);
         }

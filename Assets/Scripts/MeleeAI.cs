@@ -24,8 +24,7 @@ public class MeleeAI : MonoBehaviour
         //senao for uma parede, o tiro destroi o objeto
         if(collision.gameObject.layer == 3){
             Destroy(collision.gameObject);        
+            Destroy(gameObject);
         }
-        //depois de acertar alguma coisa, o tiro desaparece
-        Destroy(gameObject);
     }
 }
