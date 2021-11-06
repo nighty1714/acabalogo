@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class DeathCam : MonoBehaviour
 {
-    public Camera overheadCamera;
-    void Start()
-    {
-        overheadCamera.enabled = false;
+    public Camera deathCamera;
+    public Camera playerCamera;
+    void Start(){
+        deathCamera.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.Find("MainCamera") == null){
-            overheadCamera.enabled = true;
+        if(playerCamera.gameObject.activeInHierarchy == false){
+            deathCamera.enabled = true;
         }
     }
 }

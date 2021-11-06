@@ -26,7 +26,6 @@ public class EnemyFire : MonoBehaviour
         
         if(currentAmmo <= 0){
             reloadTimer -= Time.deltaTime;
-            Debug.Log(reloadTimer);
             if(reloadTimer <= 0){
                 currentAmmo = ammo;
                 reloadTimer = reload;
