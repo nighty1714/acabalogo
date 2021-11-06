@@ -15,11 +15,11 @@ C:/Users/gabri/Documents/GitHub/acabalogo/taacabando
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49348
+55489
 Successfully changed project path to: C:/Users/gabri/Documents/GitHub/acabalogo/taacabando
 C:/Users/gabri/Documents/GitHub/acabalogo/taacabando
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004445 seconds.
+Registered in 0.004484 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.280 seconds
+- Completed reload, in  2.362 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2280ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (2362ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (124ms)
+		EndReloadAssembly (987ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
+			SetupTypeCache (385ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (366ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006550 seconds.
+Registered in 0.006625 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.207 seconds
+- Completed reload, in  2.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3209ms)
-		BeginReloadAssembly (477ms)
+	ReloadAssembly (2561ms)
+		BeginReloadAssembly (361ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2529ms)
-			LoadAssemblies (281ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2051ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (878ms)
+			SetupTypeCache (712ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (148ms)
-			SetupLoadedEditorAssemblies (922ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (764ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (174ms)
-				ProcessInitializeOnLoadAttributes (696ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (580ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
+System memory in use before: 65.1 MB.
 System memory in use after: 65.2 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 8.390500 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.096600 ms MarkObjects: 7.817000 ms  DeleteObjects: 0.131100 ms)
+Total: 5.641000 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.143200 ms MarkObjects: 5.019500 ms  DeleteObjects: 0.112600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,41 +131,665 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/EnemyBullet.cs
-  artifactKey: Guid(921055980d6a9f9478ee0a744d4a2037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyBullet.cs using Guid(921055980d6a9f9478ee0a744d4a2037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921ec0ae21be6217a58a31a46d0adb1d') in 0.055704 seconds 
-  Import took 0.063767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Scripts/GetUp.cs
-  artifactKey: Guid(0475387fd3f6c4744ab7b6ff3c9bba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GetUp.cs using Guid(0475387fd3f6c4744ab7b6ff3c9bba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8d5b2ca4e979549fd5959abccbf9e2') in 0.004817 seconds 
-  Import took 0.012085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Scripts/EnemyController.cs
-  artifactKey: Guid(9af65925efa832346915fa2f43160978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyController.cs using Guid(9af65925efa832346915fa2f43160978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5271f9e262bcde1282a93ca52748a') in 0.005328 seconds 
-  Import took 0.009920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Scripts/EnemyFire.cs
-  artifactKey: Guid(11968545386bc64478ad903f9f5e1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyFire.cs using Guid(11968545386bc64478ad903f9f5e1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71a29e1964ca139d346991155089003') in 0.006590 seconds 
-  Import took 0.011295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1372.120550 seconds.
   path: Assets/texturas/Labirinto 1.prefab
   artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3deccd067130cef7c9b6aa3646e51c7b') in 0.201147 seconds 
-  Import took 0.209581 seconds .
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3b1e0dff5ae24cf603fed27c90411a') in 0.229384 seconds 
+  Import took 0.236187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.273969 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738ed542cc1af7a99cd3d342ce31ba6f') in 0.037862 seconds 
+  Import took 0.044838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.570497 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa63798475136c3f1433b60a01efb0cb') in 0.032066 seconds 
+  Import took 0.039177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.081944 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b883228c13bc9d8fa0e029f2c4bb5638') in 0.030691 seconds 
+  Import took 0.038806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.053837 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26728b677cb2ad4852d4be1dc5359e26') in 0.035921 seconds 
+  Import took 0.042984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.249521 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57758620118f1c5da039a6fab2f1657b') in 0.036149 seconds 
+  Import took 0.042637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.846658 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a054b2686a6e58e59c80241741881f7d') in 0.030421 seconds 
+  Import took 0.036943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.596077 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324dfe6a7b390ee06fa2dfc4be5951ae') in 0.034061 seconds 
+  Import took 0.040960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.117278 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f1f54c002c713308f3ce3b582c6f5d') in 0.037350 seconds 
+  Import took 0.045707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.634010 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d7ed479fe64c4440486086080f69c8') in 0.033464 seconds 
+  Import took 0.040738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.232198 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1424cfe029f6b6ed4a829553895ecd7c') in 0.031645 seconds 
+  Import took 0.038011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.537117 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cee9b8330e9168d93fbb8630b14df14') in 0.032418 seconds 
+  Import took 0.039012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.532298 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e909b6d253106cd849c033b3f8549b7') in 0.033966 seconds 
+  Import took 0.041745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.044371 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f496f08d2275ba2b236c10210a50ea88') in 0.035697 seconds 
+  Import took 0.042982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.824542 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4672609b164d8c89f38f2f3a0561a6bd') in 0.031629 seconds 
+  Import took 0.039068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.643004 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e91914019d583ff44f253f3c58da93b') in 0.032456 seconds 
+  Import took 0.040171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.195020 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d74fb09c4f5fb79f6e455af1b149d1') in 0.033127 seconds 
+  Import took 0.040340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.828842 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac569ccf4c4a3515670d4fedce9417a') in 0.034120 seconds 
+  Import took 0.041750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.623531 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca6054b6b19ac114df9244bd953fd86') in 0.034519 seconds 
+  Import took 0.042720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.243574 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fdc8887bcdc67da9783fa15d6702ab') in 0.034227 seconds 
+  Import took 0.041270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.948959 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320bd455636d6dd64d2285f58200ab71') in 0.034046 seconds 
+  Import took 0.041172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.245825 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b92bd544484df77e899ff92f54a3c6') in 0.034320 seconds 
+  Import took 0.042334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.848848 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ef8fbfd120a1e9538054c8f1d2077b') in 0.034861 seconds 
+  Import took 0.042058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.847833 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aaf4c709ad45b443488f7b208f8903') in 0.032562 seconds 
+  Import took 0.039094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.287368 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c7d8e5c26fab90f4c6c34f77e09020') in 0.031282 seconds 
+  Import took 0.037838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.038886 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0028a87c94a2c8bcc3dc8f69b2ab35') in 0.032199 seconds 
+  Import took 0.040116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.997473 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c44c5b0c4dcab756634aa2fcd746af') in 0.032268 seconds 
+  Import took 0.039198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.501307 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce914fe92b647c9c831fae29dacef0b4') in 0.033934 seconds 
+  Import took 0.040822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.816179 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e375d1b0ff6c9baaf89e5672085608') in 0.032560 seconds 
+  Import took 0.038893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.026071 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2671f277f32e7ac56710de1d73af0f0f') in 0.033424 seconds 
+  Import took 0.039940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.264094 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357d642f5d7bd23ddcd46eef36b40ecd') in 0.035605 seconds 
+  Import took 0.044342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.012951 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b0455f52925237b59f4421586e1c82') in 0.036986 seconds 
+  Import took 0.043509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.811478 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308cb646b00074391716165b4b319760') in 0.033718 seconds 
+  Import took 0.040891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.050971 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e75bf7b051342bf353183861a85ccc') in 0.032108 seconds 
+  Import took 0.039555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.659811 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0908d17aaab95e1eeb745ce0186df8c8') in 0.031807 seconds 
+  Import took 0.039413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.259918 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e4646e5cf4bb414a426e13dcbac81e') in 0.036580 seconds 
+  Import took 0.043780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.785995 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f5ddb085434bb2695b0f1c1c674832') in 0.037098 seconds 
+  Import took 0.043602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.668827 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9a219e78f4e6e3b106db710938078f') in 0.038899 seconds 
+  Import took 0.045660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.036539 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da16d35328d15a4557bffb93075509a') in 0.030405 seconds 
+  Import took 0.036931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.301229 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e0e358bddc992e8edf47661c895014') in 0.032383 seconds 
+  Import took 0.040698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.849556 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a170b3b2ded914faf5f2ae4b9f8a540d') in 0.033260 seconds 
+  Import took 0.039727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.096821 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1735589f6e87ce864d8460b40bb74') in 0.034523 seconds 
+  Import took 0.041968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.230914 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b9ab46e3e60354053ead4f2d34acf7') in 0.033862 seconds 
+  Import took 0.041634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.653031 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c74a02b686781aa62c883ce1238f63') in 0.033848 seconds 
+  Import took 0.041607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.157984 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e939e1e6c5acc0cfb1aca5cd033172e') in 0.036740 seconds 
+  Import took 0.047072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.403118 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6e8bf68f7409cb0e4960088258989') in 0.034830 seconds 
+  Import took 0.042536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.446955 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1920a868872e3e854ba749f6c025b535') in 0.039584 seconds 
+  Import took 0.047382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.110925 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218aeeead3fdbd22250c0c2d2e8ce1b3') in 0.033749 seconds 
+  Import took 0.040359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.472908 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3972c19a59bd1faec2ef95bdea6a1b65') in 0.034162 seconds 
+  Import took 0.041243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.109253 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9c6ff182008a7d5ef95aaa652560f6') in 0.031731 seconds 
+  Import took 0.038069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.049532 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd2d481f5b656410f5a5c33dfcbdc4e') in 0.035797 seconds 
+  Import took 0.044179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.434410 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eb0b512776e964cf3bf4cf1056b92c') in 0.034052 seconds 
+  Import took 0.040037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.215365 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaec3d406db55605fc10fccd3a7b5b22') in 0.032471 seconds 
+  Import took 0.039055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.248413 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323b135b149ee0ca28f0664ee60675a9') in 0.034666 seconds 
+  Import took 0.041313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.136518 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1b071db38a37d4a69324b3ab41e3c3') in 0.037044 seconds 
+  Import took 0.044737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.709638 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0884339b07abe0dd8cfc4ae5929a5682') in 0.032292 seconds 
+  Import took 0.039164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.708718 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caff9f0b467726096dc652d6d0be51c5') in 0.037423 seconds 
+  Import took 0.046183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.213724 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6aab5b8ed1dde61d80509487345ca3') in 0.033642 seconds 
+  Import took 0.041206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.253588 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4970a26106df68e3bef05b0a686201a2') in 0.036391 seconds 
+  Import took 0.044052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.591491 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f73d4a5125d5f05e6fdd22d5630696') in 0.037005 seconds 
+  Import took 0.045813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.015411 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239626edfed11b7b2a4462a0b852ef95') in 0.036988 seconds 
+  Import took 0.045418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.662143 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2f45036e390c1766a40f73c6d39ab3') in 0.034073 seconds 
+  Import took 0.042447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.564801 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d31eddb1768b5e4940354f02974c23f') in 0.031721 seconds 
+  Import took 0.038953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.807275 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3504128acc6232d3565984c312b95e0') in 0.041318 seconds 
+  Import took 0.051135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.258769 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005f6f7896b7371520242f1c81133ace') in 0.030947 seconds 
+  Import took 0.038163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.060821 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1118f95356b179291d0465af48d755') in 0.033618 seconds 
+  Import took 0.040225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.632749 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b604ef50083523d718a91a1942b1bcd') in 0.033110 seconds 
+  Import took 0.040205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.423407 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6bd32ac6643e33972e293bba3644a1') in 0.032722 seconds 
+  Import took 0.039842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.275045 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e101ce511e0bef2926650b36836efb3') in 0.032683 seconds 
+  Import took 0.039061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.662810 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12c3903a7750bf7bc2308dd0354836a') in 0.033572 seconds 
+  Import took 0.040175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.472865 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba9990d1c65f7c57f7529077f92ab09') in 0.032318 seconds 
+  Import took 0.039627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.033660 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aad526a58f125a03c83c3cd57e0073') in 0.041237 seconds 
+  Import took 0.050240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.132301 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b163fed39c8101a92f969109c3c2864e') in 0.031693 seconds 
+  Import took 0.037994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.445544 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e8cf170da463f3deecd8c6b129cc63') in 0.031427 seconds 
+  Import took 0.037955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.465422 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340cce473648370d8de4846873706819') in 0.032564 seconds 
+  Import took 0.039547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.036583 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e4381d68726a3cafd01ee8cca9b8d8') in 0.036697 seconds 
+  Import took 0.044222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.441744 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7750b959b34e5da7d6eb8b5b9e6e1a14') in 0.037148 seconds 
+  Import took 0.044282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.405490 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b1cd7b01e95835e5937d1adb777301') in 0.031926 seconds 
+  Import took 0.038405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.005829 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aecb4b3c6f2346e3b208fda34a0884b') in 0.034320 seconds 
+  Import took 0.041374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.262853 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae7d350a4bf3aa52777a75fec6384ee') in 0.033505 seconds 
+  Import took 0.041675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.477700 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a73da0212301c1fd3b1d447994c7ba') in 0.034299 seconds 
+  Import took 0.040508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.845076 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080d031e07fc3d489f0a6d3b46fdefaf') in 0.035042 seconds 
+  Import took 0.042411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.484034 seconds.
+  path: Assets/texturas/Labirinto 1.prefab
+  artifactKey: Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texturas/Labirinto 1.prefab using Guid(4a77d5798292ebe48a8d723524e561ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1043e57bc1d01b348a341497b017f53c') in 0.031413 seconds 
+  Import took 0.038423 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
