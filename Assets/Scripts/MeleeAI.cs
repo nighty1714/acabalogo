@@ -23,8 +23,7 @@ public class MeleeAI : MonoBehaviour
     private void OnCollisionEnter(Collision collision){
         //senao for uma parede, o tiro destroi o objeto
         if(collision.gameObject.layer == 3){
-            Destroy(collision.gameObject);        
-            Destroy(gameObject);
+            collision.gameObject.SetActive(false);     
         }
     }
 }
