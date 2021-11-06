@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 713}
   m_MaxSize: {x: 14002, y: 18063}
   vertical: 0
-  controlID: 15
+  controlID: 130
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 713}
   m_MaxSize: {x: 10001, y: 18063}
   vertical: 1
-  controlID: 16
+  controlID: 92
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 38
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/texturas
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/texturas
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\gabri\Documents\GitHub\acabalogo\taacabando
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78450000
-    m_LastClickedID: 17784
-    m_ExpandedIDs: 000000007845000000ca9a3b
+    m_SelectedIDs: 02420000
+    m_LastClickedID: 16898
+    m_ExpandedIDs: 00000000fa41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000078450000
+    m_ExpandedIDs: 00000000fa410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,10 +506,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 48}
-      m_SelectedIDs: be400000
-      m_LastClickedID: 16574
-      m_ExpandedIDs: 46fbffff48fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 9e3e0000
+      m_LastClickedID: 16030
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -618,20 +618,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.16848183, y: 0.0755664, z: -0.013518958, w: 0.9828815}
+    m_Target: {x: -0.008086582, y: -0.97865885, z: 0.20129903, w: -0.044839695}
     speed: 2
-    m_Value: {x: 0.16847368, y: 0.07407959, z: -0.013263998, w: 0.982829}
+    m_Value: {x: -0.008017877, y: -0.9787784, z: 0.1997938, w: -0.044843458}
   m_Size:
-    m_Target: 34.45214
+    m_Target: 31.530617
     speed: 2
-    m_Value: 32.968555
+    m_Value: 30.172838
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
-    m_Speed: 0.12094
-    m_SpeedNormalized: 0.06
+    m_Speed: 0.001
+    m_SpeedNormalized: 0
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -718,17 +718,17 @@ MonoBehaviour:
       y: 21
       width: 1030
       height: 150
-    m_Scale: {x: 1.1255087, y: 1.1255087}
-    m_Translation: {x: 526.1703, y: 70.983734}
+    m_Scale: {x: 1.1255085, y: 1.1255087}
+    m_Translation: {x: 450.36307, y: 70.983734}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -467.49554
+      x: -400.14185
       y: -63.06814
-      width: 915.1418
+      width: 915.14185
       height: 133.27307
     m_MinimalGUI: 1
   m_defaultScale: 1
