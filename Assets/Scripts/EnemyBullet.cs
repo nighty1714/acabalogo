@@ -17,7 +17,7 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision){
         //senao for uma parede, o tiro destroi o objeto
-        if(collision.gameObject.layer != 0){
+        if(collision.gameObject.layer == 3){
             collision.gameObject.SetActive(false);     
         }
         //depois de acertar alguma coisa, o tiro desaparece
