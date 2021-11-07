@@ -16,7 +16,7 @@ public class MeleeAI : MonoBehaviour
         if(Random.Range(0,10) < 9){
             transform.position += step * velocity;
         }else{
-            transform.position += step * 5* velocity;
+            transform.position += step * 5 * velocity;
         }
     }
 

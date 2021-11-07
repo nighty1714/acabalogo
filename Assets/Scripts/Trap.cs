@@ -19,7 +19,7 @@ public class Trap : MonoBehaviour
 
     private void OnTriggerEnter(){
         if(enemysAlive.Count < maxEnemies){
-            Vector3 enemyPosition = new Vector3(x + Random.Range(5, 15), 
+            Vector3 enemyPosition = new Vector3(x, 
             player.transform.position.y, z);
             GameObject newEnemy = Instantiate(enemy, enemyPosition, Quaternion.identity);
             enemysAlive.Add(newEnemy);

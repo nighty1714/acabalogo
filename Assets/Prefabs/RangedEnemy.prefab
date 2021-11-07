@@ -171,6 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 7957827775153795046, guid: 66504a7d050880849aff2f8ed653f5c6, type: 3}
-  fireRate: 0.25
-  reload: 0.5
-  ammo: 10
+  fireRate: 1
+  reload: 5
+  ammo: 3
