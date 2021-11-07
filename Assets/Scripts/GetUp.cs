@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class GetUp : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         float x = gameObject.transform.rotation.eulerAngles.x;

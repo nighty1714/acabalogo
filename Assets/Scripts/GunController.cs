@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour
 {
-    public GameObject prefabDoTiro;
+    public GameObject myBullet;
+    public Canvas ReloadText;
     public float fireRate = 2f;
     public float reload = 5f;
     float reloadTimer;
@@ -14,6 +15,7 @@ public class GunController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ReloadText.enabled = false;
         fireTimer = fireRate;
         currentAmmo = ammo;
         reloadTimer = reload;
@@ -26,16 +28,17 @@ public class GunController : MonoBehaviour
         
         if(currentAmmo <= 0){
             reloadTimer -= Time.deltaTime;
-            Debug.Log(reloadTimer);
+            ReloadText.enabled = true;
             if(reloadTimer <= 0){
                 currentAmmo = ammo;
                 reloadTimer = reload;
+                ReloadText.enabled = false;
             }
         }else{ 
             if(fireTimer >= fireRate){
                 fireTimer = fireRate;
                 if(Input.GetMouseButton(0)){
-                    Instantiate(prefabDoTiro, gameObject.transform.position, gameObject.transform.rotation);
+                    Instantiate(myBullet, gameObject.transform.position, gameObject.transform.rotation);
                     fireTimer = 0;
                     currentAmmo--;
                 }

@@ -6,8 +6,10 @@ public class DeathCam : MonoBehaviour
 {
     public Camera deathCamera;
     public Camera playerCamera;
+    public Canvas GameOverText;
     void Start(){
         deathCamera.enabled = false;
+        GameOverText.enabled = false;
     }
 
     // Update is called once per frame
@@ -15,6 +17,7 @@ public class DeathCam : MonoBehaviour
     {
         if(playerCamera.gameObject.activeInHierarchy == false){
             deathCamera.enabled = true;
+            GameOverText.enabled = true;
         }
     }
 }

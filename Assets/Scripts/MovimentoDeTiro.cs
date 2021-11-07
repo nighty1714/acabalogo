@@ -17,7 +17,7 @@ public class MovimentoDeTiro : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision){
         //senao for uma parede, o tiro destroi o objeto
-        if(collision.gameObject.layer != 0){
+        if(collision.gameObject.layer == 6){
             Destroy(collision.gameObject);        
         }
         //depois de acertar alguma coisa, o tiro desaparece
