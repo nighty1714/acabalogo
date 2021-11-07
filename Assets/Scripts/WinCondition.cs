@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class WinCondition : MonoBehaviour
 {
+    public Camera uiCamera;
+    public Camera playerCamera;
     public Canvas WinnerText;
-    void Start()
-    {
-        WinnerText.enabled = false;
-    }
 
-    private void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.layer != 0){
+    private void OnCollisionEnter(Collision collision) {
+        if(collision.gameObject.layer == 3){
+            playerCamera.enabled = false;
+            uiCamera.enabled = true;
             WinnerText.enabled = true;
-            collision.gameObject.layer = 0;
         }
     }
 }
