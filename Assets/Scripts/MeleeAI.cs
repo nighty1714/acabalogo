@@ -13,15 +13,11 @@ public class MeleeAI : MonoBehaviour
     // Update is called once per frame
     void Update(){
         Vector3 step = target.transform.position - transform.position;
-        if(Random.Range(0,10) < 9){
-            transform.position += step * velocity;
-        }else{
-            transform.position += step * 5* velocity;
-        }
+        transform.position += step * velocity;
     }
 
     private void OnCollisionEnter(Collision collision){
-        //senao for uma parede, o tiro destroi o objeto
+        //senao for uma parede, inimigo desativa o objeto(player)
         if(collision.gameObject.layer == 3){
             collision.gameObject.SetActive(false);     
         }

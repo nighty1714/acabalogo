@@ -28,14 +28,16 @@ public class Movement : MonoBehaviour
             if(Input.GetKey(KeyCode.D)  || Input.GetKey(KeyCode.RightArrow)){
                 gameObject.transform.position += gameObject.transform.right*velocity;
             }
+        }else{
+            isColliding = false;
         }
     }
     private void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.layer != 8){
+        if(collision.gameObject.layer == 0){
             isColliding = true;
         }
     }
     private void OnCollisionExit(Collision collision){
-        isColliding = false; 
+        
     }
 }
