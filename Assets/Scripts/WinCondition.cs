@@ -10,6 +10,7 @@ public class WinCondition : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision) {
         if(collision.gameObject.layer == 3){
+            Destroy(GameObject.Find("Hand"));
             playerCamera.enabled = false;
             uiCamera.enabled = true;
             WinnerText.enabled = true;
